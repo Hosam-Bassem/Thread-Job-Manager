@@ -1,6 +1,6 @@
 # 🧵 Thread Job Manager
 
-A thread-safe job scheduling system implemented in Java as part of the **Concurrency (F29OC)** module at Heriot-Watt University. This project simulates a multi-threaded environment where server threads are synchronized and grouped to execute specified jobs based on strict concurrency rules.
+A thread-safe job scheduling system implemented in Java. This project simulates a multi-threaded environment where server threads are grouped and synchronized to execute jobs using concurrency control mechanisms like ReentrantLock, Condition, and FIFO queues.
 
 ## 💡 Overview
 

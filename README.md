@@ -36,15 +36,14 @@ Includes a suite of custom test cases in `Tests.java` to verify:
 
 ## 📁 Structure
 
-- `JobManager.java` – Core implementation
-- `Tests.java` – Custom and example test cases
-- `Main.java` – Entry point for test execution
-- `Manager.java` – Provided interface (not modified)
-- `JobRequest.java` – Defines job structure (not modified)
+- `JobManager.java` – Handles thread synchronization, job queuing, and server assignment logic.  
+- `Tests.java` – Contains unit tests and simulation cases for verifying system behavior.  
+- `Main.java` – Launches the program and runs the defined test scenarios.  
+- `Manager.java` – Defines the job manager interface and expected method signatures.  
+- `JobRequest.java` – Represents the structure and attributes of individual job requests.  
 
 ## 📚 Learning Outcomes
 
 - Implementing thread-safe classes from scratch
 - Deep understanding of Java concurrency primitives
 - Managing complex thread interactions in a real-world simulation
-- Writing meaningful commit histories for Git-based development
